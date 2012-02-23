@@ -1,0 +1,12 @@
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\SeriesTracker.exe.config
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\SeriesTracker.exe
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\SeriesTracker.pdb
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\SeriesTracker.Form1.resources
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\SeriesTracker.Properties.Resources.resources
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\SeriesTracker.exe
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\SeriesTracker.pdb
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\Ionic.Zip.dll
+C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\Ionic.Zlib.dll
