@@ -49,5 +49,33 @@ namespace SeriesTracker
             SQLiteDatabase db = getDb();
             db.ExecuteNonQuery(cmd);
         }
+
+        public List<Serie> getAllSeries()
+        {
+            List<Serie> result = new List<Serie>();
+            /*
+            SQLiteDatabase db = getDb();
+            DataTable dt = db.GetDataTable("SELECT * FROM series");
+            foreach (DataRow row in dt.Rows)
+            {
+                Serie serie = new Serie();
+                serie.Id = row.Field<Int32>(0);
+                serie.Name = row.Field<String>("name");
+                serie.Overview = row.Field<String>("overview");
+                result.Add(serie);
+            }
+             */
+            SQLiteDatabase db = getDb();
+            SQLiteDataReader reader = db.GetDataReader("SELECT * FROM series");
+            while (reader.Read())
+            {
+                Serie serie = new Serie();
+                serie.Id = reader.GetInt32(reader.GetOrdinal("id"));
+                serie.Name = reader.GetString(reader.GetOrdinal("name"));
+                serie.Overview = reader.GetString(reader.GetOrdinal("overview"));
+                result.Add(serie);
+            }
+            return result;
+        }
     }
 }

@@ -46,10 +46,19 @@ namespace SeriesTracker
             }
         }
 
-        public void save()
+        public void Save()
         {
             Database db = new Database();
             db.insertSerie(Id, Name, Overview);
+        }
+
+        public override Boolean Equals(Object obj)
+        {
+            Serie other = obj as Serie;
+            if ((Object)other == null)
+                return false;
+            else
+                return this.Id == other.Id; 
         }
 
         public override String ToString()

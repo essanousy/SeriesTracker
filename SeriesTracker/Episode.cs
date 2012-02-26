@@ -121,10 +121,19 @@ namespace SeriesTracker
             return timestamp;
         }
 
-        public void save()
+        public void Save()
         {
             Database db = new Database();
             db.insertEpisode(Id, SeriesId, Name, Overview, EpisodeNumber, SeasonNumber, FirstAired, Seen);
+        }
+
+        public override Boolean Equals(Object obj)
+        {
+            Episode other = obj as Episode;
+            if ((Object)other == null)
+                return false;
+            else
+                return this.Id == other.Id;
         }
 
         public override String ToString()

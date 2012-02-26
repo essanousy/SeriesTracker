@@ -10,3 +10,4 @@ C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracke
 C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\SeriesTracker.pdb
 C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\Ionic.Zip.dll
 C:\Users\Maigel\documents\visual studio 2010\Projects\SeriesTracker\SeriesTracker\bin\Debug\Ionic.Zlib.dll
+C:\Users\Maigel\Documents\Visual Studio 2010\Projects\SeriesTracker\SeriesTracker\obj\x86\Debug\SeriesTracker.ManagePanel.resources
